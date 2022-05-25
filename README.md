@@ -15,3 +15,14 @@ To address the first issue, I implemented a method to put back on the bottom of 
 
 If a player can't use or doesn’t want to use the cards in their hand, he can shuffle thier hand with the Battle Deck and draw a new hand. 
 However there are cases where a character is not alive, so drawing cards for that character is a waste of resources. To correct this, every time a character is not alive, the cards that he owns are removed from the BattleDeck and reshuffled. If the character is revived the cards are added back in and reshuffled.
+
+These is console applitatioon to test the concept before intregrating it into a Unity project. 
+
+If you wish to use the code from this system or make modifications for it. Feel free to download it and use it. 
+Just credit me on project and maybe send me a copy to try out. :D
+
+
+TODO
+1. Implement a way to customize the characters deck before each game. (read from a XML file to get the personal decks?)
+2. Add the stun state effect for the player characters (the monster doesn't have stun abilities yet)
+3. Clean up the code.
